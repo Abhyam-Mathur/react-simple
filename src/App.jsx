@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Stars, Float, MeshDistortMaterial } from '@react-three/drei'
-import { NonExistentModule } from 'this-package-does-not-exist-netlify-test'
+import { NonExistentModule } from 'this-package-does-not-exist-netlify-testt'
 import './App.css'
 
 function RotatingBox({ position, color, scale = 1 }) {
